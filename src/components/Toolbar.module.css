@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search {
+  flex: 1;
+  min-width: 200px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid #eaeaea;
+  border-radius: 10px;
+  color: #304ffe;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buttons button {
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #bbdefb;
+  color: #304ffe;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.buttons button:hover:not(:disabled) {
+  background-color: #304ffe;
+  color: #bbdefb;
+}
+
+.buttons .danger {
+  background-color: #ffebee;
+  color: #f44336;
+}
+
+.buttons .danger:hover:not(:disabled) {
+  background-color: #f44336;
+  color: #ffebee;
+}
+
+.buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

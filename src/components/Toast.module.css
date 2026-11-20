@@ -1,0 +1,26 @@
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 18px;
+  background-color: #304ffe;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: #0c2ad487 0 7px 29px 0;
+}
+
+.toast button {
+  background: none;
+  border: none;
+  color: #bbdefb;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.toast button:hover {
+  color: #fff;
+}
